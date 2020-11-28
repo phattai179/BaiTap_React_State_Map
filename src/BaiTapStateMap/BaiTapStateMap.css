@@ -1,0 +1,27 @@
+.background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    background-image: url(./glassesImage/background.jpg);
+}
+
+.inforOnModel h5{
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.inforOnModel button {
+    padding: 4px 8px;
+    margin-top: -4px;
+
+}
+
+.inforOnModel p{
+    font-size: 15px;
+    color: white;
+    /* margin-top: 5px; */
+    transition: all 0.5s;
+}

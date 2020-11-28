@@ -1,0 +1,61 @@
+.main{
+    background-image: url(./glassesImage/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    
+}
+
+.titleMain{
+    background-color: #00000088;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+}
+
+.main .modelMain{
+    text-align: center;
+    position: relative;
+}
+
+.main .productModel{
+    position: absolute;
+    top: 102px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.8;
+}
+
+.main .information {
+    background-color: rgba(255, 99, 71, 0.849);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 35%;
+    width: 300px;
+}
+
+.main .information h4{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.main .information p{
+    font-size: 15px;
+    color: white;
+}
+
+.main .optionProduct{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main .productRender{
+    margin: 15px 15px;
+    cursor: pointer;
+}
